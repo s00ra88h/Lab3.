@@ -1,0 +1,27 @@
+% ---------- father/2 ----------
+?- father(adel, sarah).
+true.
+
+?- father(maitha, saad).
+false.
+
+% ---------- mother/2 ----------
+?- mother(maitha, faris).
+true.
+
+?- mother(adel, faris).
+false.
+
+% ---------- sister/2 ----------
+?- sister(norah, saad).
+true.
+
+?- sister(saad, norah).
+false.
+
+% ---------- brother/2 ----------
+?- brother(faris, sarah).
+true.
+
+?- brother(sarah, naif).
+false.
